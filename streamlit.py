@@ -38,7 +38,7 @@ def store_details():
     st.write(f"Female Below Poverty: {store_data['Total(Below Poverty)-Female']}")
     st.write(f"Female Below Poverty Line in TG: {store_data['Female Below Poverty Line in TG']}")
     st.write(f"High School Completed in TG: {store_data['High School Completed in TG']}")
-    st.write(f"Bachelor's Completed in TG: {store_data['Bachelor\'s Completed in TG']}")
+    st.write(f"Bachelor's Completed in TG: {store_data['Bachelors Completed in TG']}")
     st.write(f"Population Density: {store_data['Population Density']}")
     st.write(f"Prosperity Score: {store_data['Prosperity Score']}")
     st.write(f"Expansion Score: {store_data['Expansion Score']}")
