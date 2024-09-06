@@ -71,7 +71,7 @@ def summary_statistics():
                   'Median earnings (dollars)-Male', 'Median earnings (dollars)-Female', 
                   'Total(Below Poverty)', 'Total(Below Poverty)-Male', 'Male Below Poverty Line in TG', 
                   'Total(Below Poverty)-Female', 'Female Below Poverty Line in TG', 
-                  'High School Completed in TG', 'Bachelor\'s Completed in TG', 
+                  'High School Completed in TG', 'Bachelors Completed in TG', 
                   'Population Density', 'Prosperity Score', 'Expansion Score', 'Radius', 'city']]
     
     # Display the DataFrame in the app
