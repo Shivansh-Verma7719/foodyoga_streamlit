@@ -64,15 +64,16 @@ def summary_statistics():
 
     st.write('### All Stores Summary')
     # Include all the requested columns in the summary
-    summary = df[['name', 'address', 'phone', 'email', 'Geographic Area Name', 
-                  'Total population', 'Total population-Male', 'Total population-Female', 
-                  'Sex ratio (males per 100 females)', 'TAM in TG Age(20-54 yrs)', 
-                  'Total population-American Indian and Alaska Native', 'Median earnings (dollars)', 
-                  'Median earnings (dollars)-Male', 'Median earnings (dollars)-Female', 
-                  'Total(Below Poverty)', 'Total(Below Poverty)-Male', 'Male Below Poverty Line in TG', 
-                  'Total(Below Poverty)-Female', 'Female Below Poverty Line in TG', 
-                  'High School Completed in TG', 'Bachelors Completed in TG', 
-                  'Population Density', 'Prosperity Score', 'Expansion Score', 'Radius', 'city']]
+    summary = df[['name', 'address', 'phone', 'email', 'lat', 'lng', 'url', 'rating_count', 'star_count',
+                  'country', 'state', 'city', 'zip', 'facebook_link', 'instagram_link', 'twitter_link',
+                  'whatsapp_link', 'tiktok_link', 'linkedin_link', 'youtube_link', 'primary_category_name',
+                  'category_name', 'Geographic Area Name', 'Total population', 'Total population-Male',
+                  'Total population-Female', 'Sex ratio (males per 100 females)', 'TAM in TG Age(20-54 yrs)',
+                  'Total population-American Indian and Alaska Native', 'Median earnings (dollars)',
+                  'Median earnings (dollars)-Male', 'Median earnings (dollars)-Female', 'Total(Below Poverty)',
+                  'Total(Below Poverty)-Male', 'Male Below Poverty Line in TG', 'Total(Below Poverty)-Female',
+                  'Female Below Poverty Line in TG', 'High School Completed in TG', 'Bachelors Completed in TG',
+                  'Population Density', 'Prosperity Score', 'Expansion Score', 'Radius']]
     
     # Display the DataFrame in the app
     st.dataframe(summary)
